@@ -1,6 +1,6 @@
 from src.DBManager import DBManager
-from src.hh_api_class import HeadHunterParser
-from src.saver_class import JSONSaver
+from src.connect_hh_api_class import HeadHunterParser
+from src.ABC_save_class import JSONSaver
 
 
 def collecting_vacancies(user_input):

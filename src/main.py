@@ -1,4 +1,4 @@
-from src.connect_to_postgresql import connection_to_data
+from src.connect_to_psql import connection_to_data
 from src.utils import collecting_vacancies, creating_dictionary_list, saver_json, get_print
 
 if __name__ == "__main__":
